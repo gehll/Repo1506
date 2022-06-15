@@ -1,5 +1,6 @@
 # Primer script
-funcion <- function(a, b, c){
-  
-  return(a*b*c)
+# Vamos a hacer unos cambios y mandarlos al remoto
+funcion <- function(a, b, c, coef){
+  d <- coef*(c+b)
+  return(a*d)
 }
