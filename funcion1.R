@@ -1,4 +1,5 @@
 # Primer script
-funcion <- function(a, b){
-  return(a*b)
+funcion <- function(a, b, c){
+  
+  return(a*b*c)
 }
